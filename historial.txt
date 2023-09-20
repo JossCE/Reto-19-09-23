@@ -1,0 +1,30 @@
+   85  tree
+   86  code .
+   87  cd desktop
+   88  mkdir Terminal
+   89  cd Terminal
+   90  mkdir -p ./Taller_clase_4/Archivos
+   91  mkdir ./Taller_clase_4/Mover_Imagen1_aqui
+   92  cd ./Taller_clase_4/Archivos
+   93  mkdir ./Textos_Planos
+   94  mkdir ./Pdf
+   95  cd ./Textos_Planos
+   96  touch Texto_Plano1.txt Texto_Plano2.txt
+   97  echo "Hola Texto Plano1" > Texto_Plano1.txt
+   98  echo "Hola Texto Plano2" > Texto_Plano2.txt
+   99  cd ..
+  100  cd ./pdf
+  101  curl -o https://www.fing.edu.uy/inco/cursos/sistoper/recursosLaboratorio/tutorial0.pdf 
+  102  curl https://www.fing.edu.uy/inco/cursos/sistoper/recursosLaboratorio/tutorial0.pdf -o
+  103  curl -o Explicacion.pdf https://www.fing.edu.uy/inco/cursos/sistoper/recursosLaboratorio/tutorial0.pdf
+  104  cd ..
+  105  cd ..
+  106  curl -o Imagen.jpg https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg
+  107  mv Imagen.pdf ./Mover_Imagen_aqui
+  108  mv Imagen.jgp ./Mover_Imagen_aqui
+  109  mv Imagen.jpg ./Mover_Imagen_aqui
+  110  tree ./ > estructuraTree.txt
+  111  cat estructuraTree.txt 
+  112  echo "El profe se la rifa" >> estructuraTree.txt 
+  113  history | tail -30 <
+  114  history | tail -30 >> historial.txt

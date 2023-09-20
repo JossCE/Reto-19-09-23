@@ -1,0 +1,13 @@
+./
+|-- Archivos
+|   |-- Pdf
+|   |   `-- Explicacion.pdf
+|   `-- Textos_Planos
+|       |-- Texto_Plano1.txt
+|       `-- Texto_Plano2.txt
+|-- Mover_Imagen1_aqui
+|-- Mover_Imagen_aqui
+`-- estructuraTree.txt
+
+4 directories, 5 files
+El profe se la rifa
